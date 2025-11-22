@@ -1,0 +1,74 @@
+{
+  "earthquake": {
+    "title": "Deprem Krizi",
+    "icon": "🏚️",
+    "story": "Adada deprem oldu. İnternet kesildi, yanlış haberler yayılıyor. **Görev**: Doğru bilgiyi yaymak ve güvenliği sağlamak.",
+    "advisors": [
+      {"name": "Güvenlik", "text": "Sosyal medyayı yavaşlatalım. Yanlış haber azalır ama kısıtlanmış hissedersin."},
+      {"name": "Hukukçu", "text": "Kısıtlama yerine yardım bilgilerini öne çıkaralım."},
+      {"name": "Danışman", "text": "Sakinleştirici mesajlar paylaşalım."},
+      {"name": "Teknoloji", "text": "Toplu SMS ile yardım noktalarını duyuralım."}
+    ],
+    "action_cards": [
+      {"id": "A", "name": "Sosyal Medyayı Yavaşlat", "cost": 30, "hr_cost": 10, "speed": "fast", "security_effect": 35, "freedom_cost": 20, "side_effect_risk": 0.3, "safeguard_reduction": 0.5, "tooltip": "Yanlış haber yayılımını azaltır ama özgürlük hissini düşürür." },
+      {"id": "B", "name": "Platformlarla Uyum", "cost": 20, "hr_cost": 8, "speed": "medium", "security_effect": 22, "freedom_cost": 10, "side_effect_risk": 0.18, "safeguard_reduction": 0.6, "tooltip": "Doğru bilgiyi öne çıkarma ve yanlış haberleri etiketleme." },
+      {"id": "C", "name": "Bilgilendirme Mesajları", "cost": 10, "hr_cost": 6, "speed": "slow", "security_effect": 12, "freedom_cost": 3, "side_effect_risk": 0.08, "safeguard_reduction": 0.8, "tooltip": "Sakinleştirici ve öğretici kamu mesajları paylaşma." }
+    ],
+    "immediate_text": "Seçimin uygulanıyor: {}. Bilgi akışı düzeldi, insanlar daha sakin.",
+    "delayed_text": "Yanlış haberlerin etkisi azaldı."
+  },
+  "forest_fire": {
+    "title": "Orman Yangını",
+    "icon": "🔥",
+    "story": "Orman yangını çıktı. Yanlış tahliye bilgileri paylaşılıyor. **Görev**: Doğru rotalara ulaşımı sağla.",
+    "advisors": [
+      {"name": "Güvenlik", "text": "Sahte rotaları engellemek için kısıtlama yapalım."},
+      {"name": "Hukukçu", "text": "Resmi rotaları görünür kılmak daha iyi."},
+      {"name": "Öğretmen", "text": "Güvenli davranışları anlatan videolar hazırlayalım."},
+      {"name": "Teknoloji", "text": "Telefonlara acil uyarı göndermek etkili olur."}
+    ],
+    "action_cards": [
+      {"id": "A", "name": "Yanlış Bilgiyi Kapat", "cost": 25, "hr_cost": 10, "speed": "fast", "security_effect": 30, "freedom_cost": 15, "side_effect_risk": 0.25, "safeguard_reduction": 0.5, "tooltip": "Sahte bilgileri hızla durdurur ama özgürlük hissini azaltır." },
+      {"id": "B", "name": "Uyarı Mesajları", "cost": 20, "hr_cost": 8, "speed": "medium", "security_effect": 24, "freedom_cost": 8, "side_effect_risk": 0.12, "safeguard_reduction": 0.6, "tooltip": "Doğru tahliye rotaları telefonlara gönderilir." },
+      {"id": "C", "name": "Okul İşbirliği", "cost": 10, "hr_cost": 5, "speed": "slow", "security_effect": 10, "freedom_cost": 3, "side_effect_risk": 0.05, "safeguard_reduction": 0.8, "tooltip": "Gençlere bilgilendirici içerikler sunulur." }
+    ],
+    "immediate_text": "Seçimin devreye girdi: {}. Tahliyeler hızlandı.",
+    "delayed_text": "Yangın kontrol altına alındı."
+  },
+  "pandemic": {
+    "title": "Salgın Dönemi",
+    "icon": "🏥",
+    "story": "Hastalık yayılıyor. Sahte tedaviler konuşuluyor. **Görev**: Güvenilir bilgiyi yay.",
+    "advisors": [
+      {"name": "Sağlıkçı", "text": "Riskli bölgeleri gösteren uyarı sistemi kuralım."},
+      {"name": "Teknoloji", "text": "Yanlış bilgileri işaretleyen bildirimler kullanalım."},
+      {"name": "Hukukçu", "text": "Kısıtlamaları açıkça anlatalım."},
+      {"name": "Eğitimci", "text": "Kısa bilgilendirme videoları hazırlayalım."}
+    ],
+    "action_cards": [
+      {"id": "A", "name": "Risk Haritası", "cost": 35, "hr_cost": 12, "speed": "fast", "security_effect": 30, "freedom_cost": 18, "side_effect_risk": 0.22, "safeguard_reduction": 0.55, "tooltip": "Riskli bölgeler bildirilir; bazıları bunu fazla kontrolcü bulabilir." },
+      {"id": "B", "name": "Yerel Bilgilendirme", "cost": 20, "hr_cost": 10, "speed": "medium", "security_effect": 20, "freedom_cost": 8, "side_effect_risk": 0.15, "safeguard_reduction": 0.6, "tooltip": "Mahallelerde bilgilendirme ağı kurulur." },
+      {"id": "C", "name": "Kısa Eğitim Videoları", "cost": 10, "hr_cost": 5, "speed": "slow", "security_effect": 12, "freedom_cost": 3, "side_effect_risk": 0.05, "safeguard_reduction": 0.8, "tooltip": "Hastalıkla ilgili doğru bilgiler anlatılır." }
+    ],
+    "immediate_text": "Seçimin uygulanıyor: {}. Bilgilendirme hızlandı.",
+    "delayed_text": "Yanlış bilgiler azaldı."
+  },
+  "election": {
+    "title": "Seçim Dönemi",
+    "icon": "🗳️",
+    "story": "Sahte videolar dolaşıyor. **Görev**: Doğru bilgiye ulaşımı sağla.",
+    "advisors": [
+      {"name": "İletişimci", "text": "Sahte videolara uyarı etiketi ekleyelim."},
+      {"name": "Öğretmen", "text": "Doğru bilgiyi ayırt etmeyi öğretelim."},
+      {"name": "Siber Uzman", "text": "Gönüllü ekiplerle anlatalım."},
+      {"name": "Hukukçu", "text": "Kararlar şeffaf olsun."}
+    ],
+    "action_cards": [
+      {"id": "A", "name": "Sahte İçerik Uyarısı", "cost": 25, "hr_cost": 10, "speed": "fast", "security_effect": 28, "freedom_cost": 10, "side_effect_risk": 0.2, "safeguard_reduction": 0.55, "tooltip": "Sahte videolara açıklama etiketi ekleme." },
+      {"id": "B", "name": "Doğru Bilgiyi Paylaş", "cost": 20, "hr_cost": 8, "speed": "medium", "security_effect": 18, "freedom_cost": 5, "side_effect_risk": 0.12, "safeguard_reduction": 0.65, "tooltip": "Gerçek konuşmaların yayılması." },
+      {"id": "C", "name": "Medya Okuryazarlığı", "cost": 10, "hr_cost": 5, "speed": "slow", "security_effect": 10, "freedom_cost": 2, "side_effect_risk": 0.05, "safeguard_reduction": 0.85, "tooltip": "Sahte içerikleri anlama eğitimi." }
+    ],
+    "immediate_text": "Seçimin uygulanıyor: {}. Sahte videolar azaldı.",
+    "delayed_text": "Gençler sürece daha çok güveniyor."
+  }
+}

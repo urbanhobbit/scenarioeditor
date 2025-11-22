@@ -1,0 +1,75 @@
+{
+  "earthquake": {
+    "title": "Earthquake Crisis",
+    "icon": "🏚️",
+    "story": "A 7.2 magnitude earthquake struck the island. Cell towers are down, rumors are spreading. The public is in fear. **Mission**: Restore communication networks, control misinformation, and balance safety with freedom.",
+    "advisors": [
+      { "name": "Security Expert", "text": "Social media is creating panic. Slow it down and remove misinformation! ✅ Chaos decreases ❌ Some may feel surveilled" },
+      { "name": "Legal Advisor", "text": "Prioritize emergency internet traffic only. Broadcast aid points everywhere. ✅ Safe and calm public ❌ Slower process" },
+      { "name": "Political Advisor", "text": "Open an 'information screen'. Share aid locations. Correct misinformation. ✅ Trust increases ❌ Organization takes time" },
+      { "name": "IT Specialist", "text": "Send mass SMS, reach public via emergency platforms. ✅ Coordination increases ❌ Technical issues may arise" }
+    ],
+    "action_cards": [
+      { "id": "A", "name": "Active Social Media Intervention", "cost": 50, "hr_cost": 20, "speed": "fast", "security_effect": 40, "freedom_cost": 30, "side_effect_risk": 0.45, "safeguard_reduction": 0.5, "tooltip": "Slow down social media, apply broad surveillance. Remove misinformation quickly.\nPros (+): Chaos reduces fast, coordination increases\nCons (−): Sense of freedom decreases" },
+      { "id": "B", "name": "Collaborate with Platforms", "cost": 30, "hr_cost": 15, "speed": "medium", "security_effect": 28, "freedom_cost": 15, "side_effect_risk": 0.25, "safeguard_reduction": 0.6, "tooltip": "Track misinformation spread, collaborate with platforms.\nPros (+): Public feels safe, freedom not heavily impacted\nCons (−): Effect is a bit slow" },
+      { "id": "C", "name": "Awareness Campaign", "cost": 20, "hr_cost": 10, "speed": "slow", "security_effect": 16, "freedom_cost": 5, "side_effect_risk": 0.1, "safeguard_reduction": 0.8, "tooltip": "Educate public on earthquakes and media literacy.\nPros (+): Long-term conscious public, freedom-friendly\nCons (−): Slow effect, no immediate results" }
+    ],
+    "immediate_text": "Your choice is active: {}. Search and rescue coordination improved by 30%. Some people still have internet access issues.",
+    "delayed_text": "Looting rumors decreased by 60%; aid distribution organized. Some citizens uncomfortable with surveillance."
+  },
+  "forest_fire": {
+    "title": "Forest Fire",
+    "icon": "🔥",
+    "story": "A large forest fire broke out. False evacuation maps are circulating on social media. **Mission**: Ensure safety and deliver correct information while protecting freedoms.",
+    "advisors": [
+      { "name": "Security Expert", "text": "Restrict social media in the area, close accounts sharing fake maps. ✅ Fast, saves lives ❌ Freedom decreases" },
+      { "name": "Legal Advisor", "text": "Targeted and transparent communication is better than restriction. ✅ Increases trust ❌ Slower" },
+      { "name": "Academic", "text": "Start a media literacy campaign. ✅ Increases trust ❌ Weak effect during crisis" },
+      { "name": "IT Specialist", "text": "Send direct alerts to phones (cell-broadcast). ✅ Fast ❌ Coordination is hard" }
+    ],
+    "action_cards": [
+      { "id": "A", "name": "Active Info Intervention", "cost": 40, "hr_cost": 15, "speed": "fast", "security_effect": 35, "freedom_cost": 25, "side_effect_risk": 0.4, "safeguard_reduction": 0.5, "tooltip": "Use counter-troll teams to debunk fake maps.\nPros (+): Misinfo drops fast.\nCons (−): Freedom feels lower." },
+      { "id": "B", "name": "Use Technology", "cost": 30, "hr_cost": 15, "speed": "medium", "security_effect": 30, "freedom_cost": 14, "side_effect_risk": 0.25, "safeguard_reduction": 0.6, "tooltip": "Send phone alerts, collaborate with platforms.\nPros (+): Fast info, freedom safe.\nCons (−): Technical coordination needed." },
+      { "id": "C", "name": "Media & NGO Collab", "cost": 20, "hr_cost": 10, "speed": "slow", "security_effect": 14, "freedom_cost": 4, "side_effect_risk": 0.08, "safeguard_reduction": 0.8, "tooltip": "Share independent news, start literacy campaign.\nPros (+): High trust, freedom friendly.\nCons (−): Slow." }
+    ],
+    "immediate_text": "Your solution is live. Evacuations sped up. Complaints about internet outages exist.",
+    "delayed_text": "Fire contained, fake map impact reduced by 50%. Some citizens complain about restrictions."
+  },
+  "pandemic": {
+    "title": "Pandemic Outbreak",
+    "icon": "🏥",
+    "story": "A new virus is spreading. Fake cures and conspiracy theories are circulating. **Mission**: Ensure public access to reliable info, stop misinformation, and prevent collapse.",
+    "advisors": [
+      { "name": "Health Expert", "text": "Create an anonymous map tracking movements. ✅ Slows spread ❌ Privacy debates" },
+      { "name": "IT Specialist", "text": "Detect and correct fake cures instantly. ✅ Misinfo drops fast ❌ Censorship fears" },
+      { "name": "Legal Advisor", "text": "Declare restrictions transparently. ✅ Safety ensured ❌ Excessive restrictions harm trust" },
+      { "name": "Educator", "text": "Use mobile games to teach hygiene. ✅ Long-term awareness ❌ Slow effect" }
+    ],
+    "action_cards": [
+      { "id": "A", "name": "Lifestyle Intervention", "cost": 50, "hr_cost": 20, "speed": "fast", "security_effect": 38, "freedom_cost": 28, "side_effect_risk": 0.35, "safeguard_reduction": 0.55, "tooltip": "Interactive map showing risky areas.\nPros (+): Safe movement, less spread.\nCons (−): Privacy restricted." },
+      { "id": "B", "name": "Local Cooperation", "cost": 30, "hr_cost": 15, "speed": "medium", "security_effect": 26, "freedom_cost": 12, "side_effect_risk": 0.2, "safeguard_reduction": 0.6, "tooltip": "Local info network via community leaders.\nPros (+): Fast response.\nCons (−): Hard coordination." },
+      { "id": "C", "name": "Info Campaign", "cost": 20, "hr_cost": 10, "speed": "slow", "security_effect": 15, "freedom_cost": 5, "side_effect_risk": 0.1, "safeguard_reduction": 0.8, "tooltip": "Educate on fake cures.\nPros (+): Long-term effect.\nCons (−): Slow." }
+    ],
+    "immediate_text": "Your choice is active: {}. Health warnings spreading. Some areas still have access issues.",
+    "delayed_text": "Fake cures reduced by 60%. Public more aware, health services running better."
+  },
+  "election": {
+    "title": "Election Period",
+    "icon": "🗳️",
+    "story": "Elections approaching. Deepfake videos are rampant. Public is confused. **Mission**: Detect deepfakes, ensure access to truth, and protect election security.",
+    "advisors": [
+      { "name": "Comms Expert", "text": "Use algorithms to detect deepfakes and warn users. ✅ Misinfo drops ❌ Censorship fears" },
+      { "name": "Academic", "text": "Publish real speeches on official platforms. ✅ Reliable info ❌ Distrust in official sources" },
+      { "name": "Cyber Expert", "text": "Spread truth via local volunteers. ✅ Increases trust ❌ Hard coordination" },
+      { "name": "Legal Advisor", "text": "Every decision must be transparent. ✅ Trust grows ❌ Slow process" }
+    ],
+    "action_cards": [
+      { "id": "A", "name": "Warn Users", "cost": 40, "hr_cost": 15, "speed": "fast", "security_effect": 33, "freedom_cost": 18, "side_effect_risk": 0.3, "safeguard_reduction": 0.55, "tooltip": "Deepfake detection system.\nPros (+): Stops misinfo.\nCons (−): Censorship fears." },
+      { "id": "B", "name": "Show the Truth", "cost": 30, "hr_cost": 15, "speed": "medium", "security_effect": 24, "freedom_cost": 8, "side_effect_risk": 0.15, "safeguard_reduction": 0.65, "tooltip": "Share real speeches officially.\nPros (+): Access to truth.\nCons (−): Distrust in officials." },
+      { "id": "C", "name": "Awareness & Education", "cost": 20, "hr_cost": 10, "speed": "slow", "security_effect": 12, "freedom_cost": 3, "side_effect_risk": 0.08, "safeguard_reduction": 0.8, "tooltip": "Educate on deepfakes.\nPros (+): Long-term awareness.\nCons (−): Slow." },
+      { "id": "D", "name": "Transparency Policy", "cost": 25, "hr_cost": 12, "speed": "slow", "security_effect": 14, "freedom_cost": 4, "side_effect_risk": 0.05, "safeguard_reduction": 0.85, "tooltip": "Public portal for content decisions.\nPros (+): Trust grows.\nCons (−): Slow process." }
+    ],
+    "immediate_text": "Action taken: {}. Some deepfakes stopped, confusion remains.",
+    "delayed_text": "Deepfake impact reduced by 50%. International observers called it 'effective but sensitive'."
+  }
+}
